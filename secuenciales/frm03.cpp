@@ -13,8 +13,8 @@ int main() {
     cin >> millas;
 
     double metrosDesdeKilometros = kilometros * 1000;
-    double metrosDesdePies = pies / 3.28084;
-    double metrosDesdeMillas = millas * 1609.34;
+    double metrosDesdePies = pies / 3.2808;
+    double metrosDesdeMillas = millas * 1609;
 
     metrosTotales = metrosDesdeKilometros + metrosDesdePies + metrosDesdeMillas;
     yardasTotales = metrosTotales / 0.9144;

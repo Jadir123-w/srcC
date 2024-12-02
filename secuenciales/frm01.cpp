@@ -14,11 +14,8 @@ int main() {
         return 1;
     }
 
-    double pVarones = (static_cast<double>(varones) / total) * 100;
-    double pMujeres = (static_cast<double>(mujeres) / total) * 100;
-
-    pVarones = static_cast<int>(pVarones * 100) / 100.0;
-    pMujeres = static_cast<int>(pMujeres * 100) / 100.0;
+    double pVarones = varones * 100.0 / total;
+    double pMujeres = mujeres * 100.0 / total;
 
     cout << "Porcentaje de varones: " << pVarones << "%" << endl;
     cout << "Porcentaje de mujeres: " << pMujeres << "%" << endl;
