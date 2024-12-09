@@ -15,7 +15,7 @@ int main() {
     areaL = 2 * M_PI * radio * altura;
     areaT = 2 * areaB + areaL;
 
-    cout << fixed << setprecision(2);
+    cout << fixed;
     cout << "Área Base: " << areaB << endl;
     cout << "Área Lateral: " << areaL << endl;
     cout << "Área Total: " << areaT << endl;
